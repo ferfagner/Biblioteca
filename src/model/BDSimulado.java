@@ -46,8 +46,16 @@ public class BDSimulado {
 		this.emprestimos.add(e1);
 		this.emprestimos.add(e2);
 		this.emprestimos.add(e3);
+		
+		
+		
+		
 	}
 
-
+	//recupera arraylist de emprestimos
+	
+	public ArrayList<Emprestimo> getEmprestimo(){
+		return this.emprestimos;
+	}
 
 }
